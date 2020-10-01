@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bgimage {
+  background-image: url("images/corporate.jpeg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.leftmenu {
+  width: 20%;
+  line-height: 80px;
+  float: left;
+}
+.leftmenu h3 {
+  padding-left: 70px;
+  font-weight: bold;
+  line-height: 100px;
+  color: white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.rightmenu {
+  width: 75%;
+  height: 80px;
+  float: right;
+}
+.rightmenu ul {
+  margin-left: 400px;
+}
+.rightmenu ul li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+}
+.rightmenu ul li:hover {
+  color: orange;
+}
+.text {
+  width: 100%;
+  margin-top: 180px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.text h4 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.text h1 {
+  font-size: 65px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700px;
+  margin: 14px 0px;
+  color: black;
+}
+.text h3 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+#btn-1 {
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  width: 150px;
+  margin-top: 25px;
+  border: solid 3px white;
+}
+#btn-2 {
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  border: solid 3px white;
+  width: 150px;
+}

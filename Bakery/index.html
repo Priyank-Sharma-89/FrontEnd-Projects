@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 5 CDN -->
+    <script src="https://kit.fontawesome.com/1c7b5cd931.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bakery</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="./images/cafe-logo-2.png" alt="" class="logo">
+                <ul class="main-nav" id="check-class">
+                    <li><a href="#">Cake Delivery</a></li>
+                    <li><a href="#">How to Order</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <a href="#" class="mobile-icon" onclick="slideshow()"><i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-content">
+            <h1>Welcome to <span class="colorchange">Cobrew Cafe</span><br>House of Cake Lovers OOO Yes!!</h1>
+
+            <a href="#" class="btn btn-one">Click to Order</a>
+            <a href="#" class="btn btn-two">Complete Menu</a>
+        </div>
+
+    </header>
+
+    <script type="text/javascript">
+        function slideshow() {
+            var x = document.getElementById('check-class');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

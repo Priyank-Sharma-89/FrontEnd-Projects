@@ -1,0 +1,64 @@
+.img-responsive {
+  max-width: 100%;
+}
+.hero-image {
+  background: url("images/cover.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.hero-wrapper {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+.form-code {
+  text-align: center;
+}
+.form-code .text-code {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.form-code button {
+  width: 40%;
+  text-align: center;
+  background-color: #00bab1;
+  color: white;
+  padding: 0.3rem;
+  border: none;
+  margin: 1rem auto 0px;
+  border-radius: 5px;
+}
+.product {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+}
+.product-list-item {
+  float: left;
+  width: 32%;
+  margin-left: 0.5rem;
+}
+.product-list-item:first-of-type {
+  margin-left: 0;
+}
+@media screen and (max-width: 700px) {
+  .product-list-item {
+    width: 100%;
+    float: none;
+  }
+}

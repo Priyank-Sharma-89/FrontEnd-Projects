@@ -1,0 +1,170 @@
+.bg-image {
+    background-image: url('../images/studio.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+}
+
+.headerset {
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.headerset h1 {
+    font-size: 62px;
+}
+
+.ourservices {
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+
+.ourservices h1 {
+    font-weight: bold;
+}
+
+.row-setting {
+    margin: 80px 0;
+}
+
+.img-setting {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.fas {
+    margin-top: 22px;
+}
+
+.row-setting p {
+    color: #6c757d;
+    padding: 10px;
+}
+
+.row-setting h2 {
+    margin-top: 20px;
+}
+
+.portfolio {
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+
+.portfolio h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.ourteam {
+    margin-top: 80px;
+    height: 700px;
+    padding: 100px 0 60px;
+    width: 100%;
+}
+
+.ourteam h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.team-setting {
+    margin-top: 70px;
+}
+
+.footer {
+    height: 50px;
+}
+
+@media (min-width:376px) and (max-width: 426px) {
+    .headerset h2 {
+        font-size: 18px;
+
+    }
+
+    .headerset h1 {
+        font-size: 32px;
+
+    }
+
+    .ourservices {
+        height: 1250px;
+    }
+
+    .portfolio {
+        height: 2800px;
+    }
+
+    .ourteam {
+        margin-top: 300px;
+        height: 1400px;
+    }
+
+    .ourteam h1 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:321px) and (max-width: 376px) {
+    .headerset h2 {
+        font-size: 18px;
+
+    }
+
+    .headerset h1 {
+        font-size: 32px;
+
+    }
+
+    .ourservices {
+        height: 1250px;
+    }
+
+    .portfolio {
+        height: 2800px;
+    }
+
+    .ourteam {
+        /* margin-top: 300px; */
+        height: 1400px;
+    }
+
+    .ourteam h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .headerset h2 {
+        font-size: 18px;
+        color: black;
+    }
+
+    .headerset h1 {
+        font-size: 32px;
+        color: black;
+    }
+
+    .ourservices {
+        height: 1250px;
+    }
+
+    .portfolio {
+        height: 2700px;
+    }
+
+    .ourteam {
+        margin-top: 10px;
+        height: 1400px;
+    }
+
+    .ourteam h1 {
+        font-size: 25px;
+    }
+}
